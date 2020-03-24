@@ -1,5 +1,5 @@
 <template>
-    <div class="contextBar">
+    <main class="contextBar">
         <router-view></router-view>
         <div class="filter">
             <h2>Suche und Filter</h2>
@@ -10,7 +10,7 @@
             <Autocomplete :search="search" :get-result-value="getResultValue" @submit="handleSubmit"></autocomplete>
             <SidebarFooterLinks />
         </div>
-    </div>
+    </main>
 </template>
 
 <script>
