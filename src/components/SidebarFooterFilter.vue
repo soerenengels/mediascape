@@ -1,8 +1,8 @@
 <template>
-    <div class="togglers">
+    <form class="togglers">
         <ToggleFilter toggleTitle="Gender" />
         <ToggleFilter toggleTitle="Race" />
-    </div>
+    </form>
 </template>
 
 <script>

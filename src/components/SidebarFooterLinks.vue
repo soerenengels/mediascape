@@ -20,11 +20,11 @@ export default {
         margin-top: .75rem;
     }
     a:link, .about a:active, .about a:visited {
-        color: lightgray;
+        color: #3d3d3d;
         text-decoration: none;
     }
     a:hover {
-        color: darkgrey;
+        color: lightgrey;
         transition: color .3s;
     }
 </style>

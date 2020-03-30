@@ -7,7 +7,7 @@
                 <ToggleFilter toggleTitle="Gender" />
                 <ToggleFilter toggleTitle="Race" />
             </div>
-            <Autocomplete :search="search" :get-result-value="getResultValue" @submit="handleSubmit"></autocomplete>
+            <Autocomplete :search="search" :get-result-value="getResultValue" @submit="handleSubmit" ></autocomplete>
             <SidebarFooterLinks />
         </div>
     </main>

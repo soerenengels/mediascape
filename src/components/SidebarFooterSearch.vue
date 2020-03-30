@@ -1,5 +1,5 @@
 <template>
-    <Autocomplete :search="search" :get-result-value="getResultValue" @submit="handleSubmit"></autocomplete>
+    <Autocomplete :search="search" :get-result-value="getResultValue" @submit="handleSubmit" aria-label="Search"></autocomplete>
 </template>
 
 <script>

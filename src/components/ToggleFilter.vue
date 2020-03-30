@@ -1,10 +1,10 @@
 <template>
     <div>
         <label class="switch">
-            <input type="checkbox" v-on:click="toggleSwitch" :checked="toggleState">
+            <input type="checkbox" v-on:click="toggleSwitch" :checked="toggleState" v-bind:aria-labelledby="toggleTitle">
             <span class="slider round"></span>
         </label>
-        <span class="toggleLabel">{{ toggleTitle }}</span>
+        <span class="toggleLabel" v-bind:id="toggleTitle">{{ toggleTitle }}</span>
     </div>
 </template>
 

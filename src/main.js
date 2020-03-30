@@ -94,7 +94,7 @@ const svg = d3.select(".graph")
 
 /* Gradients */
 const svgDefs = d3.select('svg').append('defs');
-svgDefs.append('rect').attr('id','d0').attr('fill', 'yellow')
+// svgDefs.append('rect').attr('id','d0').attr('fill', 'yellow')
 // "Farbenblind" + Geschlecht
 const svgGradientColorlessMale = svgDefs.append('linearGradient').attr('id','m0');
 svgGradientColorlessMale.append('stop')
